@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f7f8fa;
+    color: #333333;
+    line-height: 1.5;
+    font-size: 25px;
+}
+header {
+    background-color: #b2a2ee;
+    color: rgb(12, 1, 1);
+    padding: 60px;
+    text-align: center;
+    border-radius: 60px;
+    border-style: inset;
+    font-size: 50px;
+}
+body {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "image"
+        "nav"
+        "footer";
+    grid-gap: 20px;
+    padding: 20px;
+}
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+img {
+    grid-area: image;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+    left: -160px;
+    border-color: #f0f1f1;
+    border-style: inset;
+
+}
+
+nav {
+    grid-area: nav;
+    background-color: #ffffff;
+    border: 1px #ddd;
+    padding: 10px;
+    font-size: 30px;
+    border-style: inset;
+nav li {
+    list-style: none;
+    margin: 10px 0;
+    font-weight: bold;
+}
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3a2f6;
+    font-weight: bold;
+}
+
+
+div{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    transform: translateX(-155%);
+
+}
+
+nav a:hover {
+    color: #e8adfe;
+}
+
+h3{ display: block;
+    font-size: 1.5em;
+    margin-top: auto;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    body {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+            "header header"
+            "nav main"
+            "image image"
+            "footer footer";
+    }
+
+    nav {
+        padding: 20px;
+    }
+}
+.link{
+    vertical-align: top;
+    position: relative;
+    top:-250px;
+}
+@media (max-width: 768px) {
+    body {
+        grid-template-areas:
+            "header"
+            "main"
+            "image"
+            "nav"
+            "footer";
+    }
+}
+
+input[type=text],input[type=email], input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+input[type=radio]{
+    transform: scale(2);
+    margin: 10px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 400px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h2{
+    border-style: double;
+}
+p{
+    font-size: 30px;
+}
+textarea{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form {
+    border-radius: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 900px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 10px;
+    justify-content: right;
+    align-items: right;
+    height: 100vh;
+    text-align: right;
+    
+
+}
+.img2{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative;
+    top: -650px;
+    left: -25px;
+}
+.img1{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative;
+    top: -800px;
+    left: -25px;
+}
+.img3{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative;
+    top: -850px;
+    left: -25px;}
+.img4{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative;
+    top: -880px;
+    left: -25px;
+}
+.img5{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative;
+    top: -1000px;
+    left: -25px;
+}
+.img6{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative; /* Nécessaire pour utiliser `top` */
+    top: -350px;
+    left: -25px;
+}
+.img7{
+    width: 600px;
+    margin-bottom: 50px;
+    border-style: inset;
+    border-width: 10px;
+    position: relative; /* Nécessaire pour utiliser `top` */
+    top: -400px;
+    left: -25px;
+}

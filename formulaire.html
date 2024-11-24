@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> تقييم الموقع</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2> تقييم الموقع</h2>
+    <form>
+
+        <p>الاسم<input name="nom" type="text"/></p>
+        <p>اللقب <input name="nom" type="text"/></p>
+        <p>تاريخ الولادة <input name="nom" type="date"/></p>
+        <p>البريد الإلكتروني<input name="nom" type="email" /></p>
+
+        <select id="country" name="الولاية">
+            <option value="اختر ولايتك">اختر ولايتك</option>
+            <option value="تونس">تونس</option>
+            <option value="أريانة">أريانة</option>
+            <option value="باجة">باجة</option>
+            <option value="بن عروس">بن عروس</option>
+            <option value="بنزرت">بنزرت</option>
+            <option value="تطاوين">تطاوين</option>
+            <option value="توزر">توزر</option>
+            <option value="جندوبة">جندوبة</option>
+            <option value="زغوان">زغوان</option>
+            <option value="سليانة">سليانة</option>
+            <option value="سوسة">سوسة</option>
+            <option value="سيدي بوزيد">سيدي بوزيد</option>
+            <option value="صفاقس">صفاقس</option>
+            <option value="قابس">قابس</option>
+            <option value="قبلي">قبلي</option>
+            <option value="القصرين">القصرين</option>
+            <option value="القيروان">القيروان</option>
+            <option value="الكاف">الكاف</option>
+            <option value="مدنين">مدنين</option>
+            <option value="المنستير">المنستير</option>
+            <option value="المهدية">المهدية</option>
+            <option value="نابل">نابل</option>
+            <option value="قفصة" >قفصة</option>
+
+        </select>
+    <br>
+        <p>رأيك في الموقع</p>
+        <textarea id="textarea"  name="رأيك في الموقع" rows="5" cols="25" >   </textarea>
+
+        <p>التقييم (من 1 إلى 5)</p>
+        <p class="note">
+            <p><input type="radio" name="rating" value="1">1</p>
+            <p><input type="radio" name="rating" value="2">2</p>
+            <p><input type="radio" name="rating" value="3">3</p>
+            <p><input type="radio" name="rating" value="4">4</p>
+            <p><input type="radio" name="rating" value="5">5</p>
+        </p>
+
+
+        <p><input type="submit" value="إرسل" /></p>
+
+    </form>
+</div>
+
+</body>
+</html>
